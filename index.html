@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Personal Website</title>
+    <style>
+        body {
+            background-color: gray;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: blue;
+        }
+
+        h2 {
+            color: green;
+        }
+
+        h3 {
+            color: red;
+        }
+
+        /* Styles for the container */
+        .container {
+            text-align: center;
+            margin: 20px;
+        }
+
+        /* Styles for the experience table */
+        .experience {
+            width: 80%;
+            margin: auto;
+            border-collapse: collapse;
+        }
+
+        .experience th, .experience td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+
+        .experience th {
+            background-color: white;
+            color: blue;
+        }
+
+        /* Styles for the education list */
+        .education {
+            text-align: left;
+            margin: auto;
+            max-width: 600px;
+        }
+
+        .education dt {
+            color: white;
+            font-weight: bold;
+        }
+
+        .education dd {
+            margin-left: 20px;
+        }
+
+        /* Styles for the skills list */
+        .skills {
+            list-style-type: none;
+            padding: 0;
+            max-width: 400px;
+            margin: auto;
+        }
+
+        .skills li {
+            background-color: white;
+            color: red;
+            padding: 10px;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Heading for your name -->
+    <h1>Your Name</h1>
+
+    <!-- Brief paragraph about the website -->
+    <p>This website is about...</p>
+
+    <nav>
+	<ul>
+	    <li><a href="experience.html">Work Experience</a></li>
+	    <li><a href="education.html">Education</a></li>
+	    <li><a href="Skills.html">Skills</a></li>
+	<ul>
+    <nav>
+
+    <!-- Container for professional experiences -->
+    <div class="container">
+        <h2>Work Experience</h2>
+        <table class="experience">
+            <tr>
+                <th>Place</th>
+                <th>Job Title</th>
+                <th>Years</th>
+            </tr>
+            <tr>
+                <td>Place 1</td>
+                <td>Job Title 1</td>
+                <td>Years 1</td>
+            </tr>
+            <tr>
+                <td>Place 2</td>
+                <td>Job Title 2</td>
+                <td>Years 2</td>
+            </tr>
+            <tr>
+                <td>Place 3</td>
+                <td>Job Title 3</td>
+                <td>Years 3</td>
+            </tr>
+            <!-- Add more rows as needed -->
+        </table>
+    </div>
+
+    <!-- Heading and description list for education -->
+    <div class="container education">
+        <h2>Education</h2>
+        <dl>
+            <dt>Degree 1</dt>
+            <dd><a href="school1_website">School 1</a></dd>
+        </dl>
+        <dl>
+            <dt>Degree 2</dt>
+            <dd><a href="school2_website">School 2</a></dd>
+        </dl>
+        <dl>
+            <dt>Degree 3</dt>
+            <dd><a href="school3_website">School 3</a></dd>
+        </dl>
+    </div>
+
+    <!-- Intrapage link -->
+    <a href="#skills">Jump to Skills</a>
+
+    <!-- Lots of space for scrolling -->
+    <p><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /></p>
+
+    <!-- Heading and unordered list for skills -->
+    <div class="container skills">
+        <h2 id="skills">Skills</h2>
+        <ul>
+            <li>Skill 1</li>
+            <li>Skill 2</li>
+            <li>Skill 3</li>
+            <li>Skill 4</li>
+            <!-- Add more skills as needed -->
+        </ul>
+    </div>
+
+</body>
+</html>
